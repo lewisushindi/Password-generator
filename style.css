@@ -1,0 +1,72 @@
+        /* coded by lewis ushindi */
+body{
+    background: #069;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 1rem;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    margin: 0;
+    text-align: center;
+}
+label{
+    font-weight: bold;
+}
+.character-amount-container{
+    display: flex;
+    align-items: center;
+}
+.number-input{
+    width: 2rem;
+}
+.password-display{
+    background: rgb(39, 77, 231);
+    color: #fff;
+    padding: 1rem;
+    border: 1px solid #000;
+    height: 2rem;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    border-radius: .5rem;
+}
+.btn-p{
+    grid-column: span 2;
+    background-color: transparent;
+    border: 2px solid rgb(39, 77, 231);
+    color: rgb(39, 77, 231);
+    padding: .5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+.btn-p:hover{
+    background: rgb(39, 77, 231);
+    color: #fff;
+    font-weight: bolder;
+    border: 2px solid #069;
+}
